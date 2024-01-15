@@ -28,3 +28,4 @@
 .\objects\myi2c.o: .\Library\stm32f10x_usart.h
 .\objects\myi2c.o: .\Library\stm32f10x_wwdg.h
 .\objects\myi2c.o: .\Library\misc.h
+.\objects\myi2c.o: .\User\Delay.h

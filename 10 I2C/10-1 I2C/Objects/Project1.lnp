@@ -30,6 +30,8 @@
 ".\objects\light.o"
 ".\objects\oled.o"
 ".\objects\myi2c.o"
+".\objects\myi2c2.o"
+".\objects\mpu6050.o"
 ".\objects\main.o"
 ".\objects\stm32f10x_it.o"
 ".\objects\delay.o"
