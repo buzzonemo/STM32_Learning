@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/mu/Desktop/x/build",
+  "command": "D:/MinGW/bin/gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles/main.dir/src/main.c.obj -c C:/Users/mu/Desktop/x/src/main.c",
+  "file": "C:/Users/mu/Desktop/x/src/main.c"
+}
+]

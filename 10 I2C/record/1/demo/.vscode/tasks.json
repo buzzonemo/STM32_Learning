@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "cmake",
+        "type": "shell",
+        "options": {
+        // workspaceFolder 当前工作目录
+        // cwd 指的是，在哪个目录下输入cmake命令
+          "cwd": "${workspaceFolder}/build" 
+        },
+        "command": "cmake",
+        "args": [
+          "-G",
+          "'MinGW Makefiles'",
+          "${workspaceFolder}" //因为cmakelists.txt在这个目录下
+        ]
+      },
+      {
+        "label": "make",
+        "type": "shell",
+        "command": "make.exe",
+        "options": {
+          "cwd": "${workspaceFolder}/build"
+        },
+        "dependsOn": ["cmake"]
+      }
+    ]
+  }
+  
