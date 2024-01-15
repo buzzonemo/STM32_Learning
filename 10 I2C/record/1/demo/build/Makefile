@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/mu/Desktop/x
+CMAKE_SOURCE_DIR = "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/mu/Desktop/x/build
+CMAKE_BINARY_DIR = "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/mu/Desktop/x/build/CMakeFiles C:/Users/mu/Desktop/x/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build/CMakeFiles" "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/mu/Desktop/x/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

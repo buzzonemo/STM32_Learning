@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/mu/Desktop/x
+# Install script for directory: H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/mu/Desktop/x/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

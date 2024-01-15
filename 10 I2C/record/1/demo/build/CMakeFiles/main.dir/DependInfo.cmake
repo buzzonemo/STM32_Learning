@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/mu/Desktop/x/src/main.c" "CMakeFiles/main.dir/src/main.c.obj" "gcc" "CMakeFiles/main.dir/src/main.c.obj.d"
+  "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/src/main.c" "CMakeFiles/main.dir/src/main.c.obj" "gcc" "CMakeFiles/main.dir/src/main.c.obj.d"
   )
 
 # Targets to which this target links.

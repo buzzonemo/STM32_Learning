@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/mu/Desktop/x/build"
+			"value" : "h:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "D:/MinGW/bin/g++.exe"
 		},
 		{
@@ -299,10 +299,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "D:/MinGW/bin/gcc.exe"
 		},
 		{
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/mu/Desktop/x"
+			"value" : "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1267,7 +1267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/mu/Desktop/x/build"
+			"value" : "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build"
 		},
 		{
 			"name" : "hello_IS_TOP_LEVEL",
@@ -1291,7 +1291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/mu/Desktop/x"
+			"value" : "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo"
 		}
 	],
 	"kind" : "cache",

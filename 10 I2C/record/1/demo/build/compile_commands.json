@@ -1,7 +1,7 @@
 [
 {
-  "directory": "C:/Users/mu/Desktop/x/build",
-  "command": "D:/MinGW/bin/gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles/main.dir/src/main.c.obj -c C:/Users/mu/Desktop/x/src/main.c",
-  "file": "C:/Users/mu/Desktop/x/src/main.c"
+  "directory": "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build",
+  "command": "D:/MinGW/bin/gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles/main.dir/src/main.c.obj -c \"H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/src/main.c\"",
+  "file": "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/src/main.c"
 }
 ]

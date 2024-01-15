@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/mu/Desktop/x
+CMAKE_SOURCE_DIR = "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/mu/Desktop/x/build
+CMAKE_BINARY_DIR = "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -73,16 +73,16 @@ CMakeFiles/main.dir/src/main.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.c.obj: CMakeFiles/main.dir/includes_C.rsp
 CMakeFiles/main.dir/src/main.c.obj: ../src/main.c
 CMakeFiles/main.dir/src/main.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/mu/Desktop/x/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/src/main.c.obj"
-	D:/MinGW/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.c.obj -MF CMakeFiles/main.dir/src/main.c.obj.d -o CMakeFiles/main.dir/src/main.c.obj -c C:/Users/mu/Desktop/x/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/src/main.c.obj"
+	D:/MinGW/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.c.obj -MF CMakeFiles/main.dir/src/main.c.obj.d -o CMakeFiles/main.dir/src/main.c.obj -c "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/src/main.c"
 
 CMakeFiles/main.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/src/main.c.i"
-	D:/MinGW/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/mu/Desktop/x/src/main.c > CMakeFiles/main.dir/src/main.c.i
+	D:/MinGW/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/src/main.c" > CMakeFiles/main.dir/src/main.c.i
 
 CMakeFiles/main.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/main.c.s"
-	D:/MinGW/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/mu/Desktop/x/src/main.c -o CMakeFiles/main.dir/src/main.c.s
+	D:/MinGW/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/src/main.c" -o CMakeFiles/main.dir/src/main.c.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -95,7 +95,7 @@ main.exe: CMakeFiles/main.dir/src/main.c.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linklibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/mu/Desktop/x/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/main.dir/objects.a
 	D:/MinGW/bin/ar.exe qc CMakeFiles/main.dir/objects.a @CMakeFiles/main.dir/objects1.rsp
 	D:/MinGW/bin/gcc.exe -g -Wl,--whole-archive CMakeFiles/main.dir/objects.a -Wl,--no-whole-archive -o main.exe -Wl,--out-implib,libmain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/main.dir/linklibs.rsp
@@ -109,6 +109,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/mu/Desktop/x C:/Users/mu/Desktop/x C:/Users/mu/Desktop/x/build C:/Users/mu/Desktop/x/build C:/Users/mu/Desktop/x/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo" "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo" "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build" "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build" "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/build/CMakeFiles/main.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

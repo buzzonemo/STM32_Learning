@@ -52,15 +52,15 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/mu/Desktop/x/include"
+					"path" : "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/mu/Desktop/x/("
+					"path" : "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/("
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/mu/Desktop/x/)"
+					"path" : "H:/Git_Repo1/STM32_Learning/10 I2C/record/1/demo/)"
 				}
 			],
 			"language" : "C",
